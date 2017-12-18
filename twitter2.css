@@ -1,0 +1,133 @@
+/*GENERAL*/
+/*HEADER*/
+/*COVER AND PROFILE IMAGE*/
+/*TEXT AREA STATUSI*/
+
+
+/*__________________________________________*/
+
+/*GENERAL*/
+
+main {
+   width: 70%
+    min-height: 400px;
+    min-width: 400px;
+    background: #fff;
+    padding: 40px 20px;
+    border-radius: 5px;
+    box-shadow: 5px 55px 50px -20px #b6b6b6; 
+}
+
+body {
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI",Arial,sans-serif;
+  background-color: #e6ecf0;
+}
+
+
+/*HEADER*/
+
+.twitter_bird {
+  margin-left: auto;
+  margin-right: auto
+}
+
+.twitter {
+	display: flex;
+    height: 46px;
+    width: 98%;
+    position: fixed;
+    align-items: center;
+    padding: 0 10px;
+    border: 1px solid rgba(238,238,238 ,1);
+    border-radius: 5px;
+    color: rgba(117,117,117 ,1);
+    box-shadow: 5px 10px 20px -20px rgba(85,172,238 ,1);
+    background-color: white;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+.twitter li {
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.twitter li:hover{
+  color: rgba(85,172,238 ,1);
+}
+
+.twitter li > button {
+  font-size: 0.8em;
+  border: 0;
+  background: rgba(85,172,238 ,1);
+  color: #fff;
+  border-radius: 100px;
+
+}
+
+.twitter_bird {
+  color: rgba(85,172,238 ,1);
+  font-size: 1.3em;
+  padding-left: 262px;
+}
+
+
+/*COVER AND PROFILE IMAGE*/
+
+
+.profile-img-bg { 
+	height: 500px;
+	margin-top: -16px;
+}
+
+.profile-img-bg img {
+    border-radius: 110px;
+    position: relative;
+    margin-left: 88px;
+    margin-top: 401px;
+    border-style: solid;
+    border-color: white;
+    border-width: 7px;
+    position: initial;
+}
+
+
+/*TEXT AREA STATUSI*/
+
+textarea {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+#statusi {
+	margin: 50px 0;
+}
+
+.status {
+	padding: 30px;
+	background-color: white;
+	margin-bottom: 1px;
+	width: auto;
+    height: 100%;
+}
+
+.status:nth-last-child(1) {
+	margin-bottom: 0;
+}
+
+.status-forma  {     
+ 	max-width: 850px;
+    margin-top: 57px;
+    margin-left: 400px;
+}
+
+.profile-img-bg p {
+    font-size: 21px;
+    font-weight: bold;
+    margin-left: 89px;
+   }
